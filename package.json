@@ -1,0 +1,26 @@
+{
+  "name": "volunteer-registration-system",
+  "version": "1.0.0",
+  "description": "In this project, students will create a Volunteer Registration System using Node.js, Express.js, and EJS. The system will allow organizations to manage volunteer information for events and initiatives. The focus of the project is on implementing full CRUD (Create, Read, Update, Delete) functionality. Students will build a user-friendly interface for registering new volunteers, viewing a list of registered volunteers, updating volunteer details, and removing volunteers from the system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akradadiya28/Volunteer_Registration_System.git"
+  },
+  "author": "Arpit Radadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akradadiya28/Volunteer_Registration_System/issues"
+  },
+  "homepage": "https://github.com/akradadiya28/Volunteer_Registration_System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
